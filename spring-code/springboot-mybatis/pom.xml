@@ -21,10 +21,19 @@
       <artifactId>mysql-connector-j</artifactId>
     </dependency>
 
+<!--mybatis的起步依赖-->
+<!--    <dependency>-->
+<!--      <groupId>org.mybatis.spring.boot</groupId>-->
+<!--      <artifactId>mybatis-spring-boot-starter</artifactId>-->
+<!--      <version>3.0.0</version>-->
+<!--    </dependency>-->
+
+
+    <!--自定义的mybatis起步依赖-->
     <dependency>
-      <groupId>org.mybatis.spring.boot</groupId>
-      <artifactId>mybatis-spring-boot-starter</artifactId>
-      <version>3.0.0</version>
+      <groupId>com.clearlove</groupId>
+      <artifactId>dmybatis-spring-boot-stater</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
 
     <dependency>
