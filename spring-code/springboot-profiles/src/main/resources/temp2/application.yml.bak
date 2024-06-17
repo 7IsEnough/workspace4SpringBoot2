@@ -1,0 +1,10 @@
+# 通用信息，并指定生效的环境
+spring:
+  profiles:
+    active: test
+
+# 多环境下共性的配置
+# 如果特定环境中的配置和通用信息冲突了，特定环境中的配置生效
+server:
+  servlet:
+    context-path: /aaa
